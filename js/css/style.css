@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+video {
+    text-align: center;
+    width: 100%;
+}
+
+.wrapper {
+    width: 90%;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+video {
+    text-align: center;
+    width: 100%;
+}
+
+.wrapper {
+    width: 90%;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contenidor-imatge {
+    width: 100%;
+}

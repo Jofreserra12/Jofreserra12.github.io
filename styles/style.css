@@ -1,114 +1,134 @@
+body {
+    background-color: lightgreen;
+    font-family: sans-serif;
+}
 
-body{
-    background-color:lightgreen;
-    font-family:sans-serif;
-    }
-.box{
+.box {
     width: 75%;
     border: 1px solid grey;
     border-radius: 10px;
-    margin:auto;
-    background-color:white;
+    margin: auto;
+    background-color: white;
     padding: 1em;
-      }
-    
-.box-flex{
-        display:flex;
-    border:2px solid red;
+}
+
+.box-flex {
+    display: flex;
+    border: 2px solid red;
     flex-wrap: wrap;
     padding: 2px;
-    
+
 }
-li{
-    
-    display:inline-block;  
-    margin:1px ;
+
+li {
+
+    display: inline-block;
+    margin: 1px;
     text-align: right;
     padding-right: 1px;
-  
+
 
 }
-    ul{
-    display:inline;
-    width:60%;
-    margin:auto;
+
+ul {
+    display: inline;
+    width: 60%;
+    margin: auto;
     padding: inherit;
-        text-align: justify;
-    
+    text-align: justify;
 
-    
+
+
 }
-.box1{
+
+.box1 {
     flex-grow: 1;
 }
 
-    
+
 }
-.container{
+
+.container {
     padding: 12px;
-    height:50px;
-    width:200px;
+    height: 50px;
+    width: 200px;
 }
-.contenidor-imatge{
+
+.contenidor-imatge {
     text-align: center;
-    
-    
 }
-.color1{
+
+.imgs {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .imgs {
+        width: 500px;
+    }
+}
+
+.color1 {
     background-color: aqua;
-    flex:1;
+    flex: 1;
     border-radius: 20px;
     margin: 4px;
-    padding:12px;
+    padding: 12px;
     text-align: center;
 }
-.color1:hover{
+
+.color1:hover {
     background-color: grey;
-    flex:1;
+    flex: 1;
     border-radius: 20px;
     margin: 4px;
-    padding:12px;
+    padding: 12px;
     text-align: center;
 }
-.color2{
-    background-color:aquamarine;
-    flex:1;
+
+.color2 {
+    background-color: aquamarine;
+    flex: 1;
     border-radius: 20px;
     margin: 4px;
-    padding:12px;
+    padding: 12px;
     text-align: center;
 }
-.color2:hover{
-    background-color:aquamarine;
-    flex:1;
+
+.color2:hover {
+    background-color: aquamarine;
+    flex: 1;
     border-radius: 20px;
     margin: 4px;
-    padding:12px;
+    padding: 12px;
     text-align: center;
 }
-.color3{
-    background-color:deeppink;
-    flex:1;
+
+.color3 {
+    background-color: deeppink;
+    flex: 1;
     border-radius: 20px;
-    margin:4px;
-    padding:12px;
+    margin: 4px;
+    padding: 12px;
     text-align: center;
-       
+
 }
-.color3:hover{
-    background-color:deeppink;
-    flex:1;
+
+.color3:hover {
+    background-color: deeppink;
+    flex: 1;
     border-radius: 20px;
-    margin:4px;
-    padding:12px;
+    margin: 4px;
+    padding: 12px;
     text-align: center;
-       
+
 }
-.color4{
+
+.color4 {
     background-color: whitesmoke;
     height: 40px;
     width: 200px;
     text-align: center;
     border-radius: 20px;
-    margin:auto;
+    margin: auto;
 }
