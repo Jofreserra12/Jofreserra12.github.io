@@ -18,9 +18,6 @@
     <div class="box">
 
 
-        <div class=" container color4">
-            
-        </div>
         <hr>
         <div class="box-flex">
             <div class=" container  color1"><a href="../index.html">Inici</a></div>
@@ -32,39 +29,148 @@
         </div>
 
 <h1>Els meus diferents treballs.</h1>
-<p> He divit els treball en dos apartats, el primer d'imatges (sliders), el segon de videos.</p>
+<p> He divit els treballs en dos apartats, el primer d'imatges i il·lustració, i el segon de cinemàtica.</p>
  <h2>Índex:</h2>
 <p>
- <b>Imatges.</b>
- <p>
-- Edició imatges amb photoshop.
-- Il·lustració i dibuix 2d.
-- Il·luminació en el 3d.
-</p>
-<b>Videos.</b>
- <p>
-- Video reels 2D i 3D.
-- Rotoscòpia.
-- Stop motion.
-- Animació i il·luminació 3D.
-</p>
+ <b>Imatges i il·lustració.</b>
+ 
+ <p>- Edició imatges amb photoshop.</p>
+ <p>- Il·lustració i dibuix 2d.</p>
+ <p>- Il·luminació en el 3d.</p>
 
-<h2>Imatges</h2>
+<b>Cinemàtica</b>
+ <p>
+<p>- Video reels 2D i 3D.</p>
+<p>- Rotoscòpia.</p>
+<p>- Stop motion.</p>
+<p>- Animació i il·luminació 3D.</p>
 <br>
-        <h3>Mostres de les meves edicions d'imatge amb photoshop</h3>
-        //slider imatges
+
+<br>
 <hr>
+<br>
+<h2>Imatges:</h2>
+<br>
+        <h3>Mostres de les meves edicions d'imatge amb photoshop:</h3>
+        <style>
+    .clearfix {
+        overflow: auto;
+    }
+
+    .container {
+        width: 75%;
+        margin: auto;
+        border: 1px solid red;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .container-display {
+        position: relative;
+        width: 98%;
+        /*indicador*/
+        margin: 5px;
+        border: 1px dashed green;
+
+    }
+
+    .container-text {
+        text-align: left;
+        /*indicador*/
+        margin: 5px;
+        border: 1px dashed purple;
+    }
+
+    .boton-slider {
+        width: 30px;
+        height: 30px;
+        background-color: grey;
+    }
+
+    .boton-slider:hover {
+        width: 30px;
+        height: 30px;
+        background-color: ghostwhite;
+    }
+
+    .fletxaDreta-slider {
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translate(0%, -50%);
+        */
+    }
+
+    .fletxaEsquerra-slider {
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        transform: translate(0%, -50%);
+    }
+
+
+    .mySlides {
+        display: none;
+    }
+
+</style>
+
+<body>
+
+    <div class="container-display">
+        <img class="mySlides" src="imgslider1/w1.jpg" style="width:50%">
+        <img class="mySlides" src="imgslider1/spartan.jpg" style="width:50%">
+        <img class="mySlides" src="imgslider1/radio.jpg" style="width:50%">
+        <img class="mySlides" src="imgslider1/w2.jpg" style="width:50%">
+
+        <button class="boton-slider fletxaDreta-slider" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="boton-slider fletxaEsquerra-slider" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    <!--Script JS-->
+
+   
+<br>
        <h3>Mostres d'il·lustració i dibuix 2d.</h3>
-        //slider imatges
-<hr>          
+        <div class="container-display">
+        <img class="mySlides" src="imgslider2/d1.jpg" style="width:50%">
+        <img class="mySlides" src="imgslider2/d2.jpg" style="width:50%">
+        <img class="mySlides" src="imgslider2/d3.jpg" style="width:50%">
+        <img class="mySlides" src="imgslider2/d4.jpg" style="width:50%">
+        <img class="mySlides" src="imgslider2/d5.jpg" style="width:50%">
+
+        <button class="boton-slider fletxaDreta-slider" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="boton-slider fletxaEsquerra-slider" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+<br>          
         <h3>Mostres d'il·luminació en el 3d</h3>
-        //slider imatges
+        
+        <div class="container-display">
+        <img class="mySlides" src="imgslider3/i1.jpeg" style="width:50%">
+        <img class="mySlides" src="imgslider3/i2.jpeg" style="width:50%">
+        <img class="mySlides" src="imgslider3/i23.jpeg" style="width:50%">
+        <img class="mySlides" src="imgslider3/i3.jpeg" style="width:50%">
+        <img class="mySlides" src="imgslider3/i4.jpeg" style="width:50%">
+        <img class="mySlides" src="imgslider3/i5.jpeg" style="width:50%">
+        <img class="mySlides" src="imgslider3/i6.jpeg" style="width:50%">
+        <img class="mySlides" src="imgslider3/i7.jpeg" style="width:50%">
+        <img class="mySlides" src="imgslider3/i8.jpeg" style="width:50%">
+        <img class="mySlides" src="imgslider3/i9.jpeg" style="width:50%">
+        <img class="mySlides" src="imgslider3/10.jpeg" style="width:50%">
+        <img class="mySlides" src="imgslider3/11.jpeg" style="width:50%">
+        <img class="mySlides" src="imgslider3/12.jpeg" style="width:50%">
+        <img class="mySlides" src="imgslider3/13.jpeg" style="width:50%">
+
+        <button class="boton-slider fletxaDreta-slider" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="boton-slider fletxaEsquerra-slider" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+<br>
+<br>
 <hr>
 <br>  
-        <h2>Videos</h2>
+        <h2>Videos:</h2>
 <br>
 
-        <h3>Videoreel 2D</h3>
+        <h3>Videoreel 2D:</h3>
     <br>
         <p>
             <div class="wrapper">
@@ -77,8 +183,9 @@
 
                     </script>
         </p>
-        <hr>
-        <h3>Videoreel 3D</h3>
+        <br>
+        <br>
+        <h3>Videoreel 3D:</h3>
         <br>
          <p>
             <div class="wrapper">
@@ -91,8 +198,9 @@
 
                     </script>
         </p>
-         <hr>
-        <h3>Rotoscopia</h3>
+        <br>
+        <br>
+        <h3>Rotoscopia:</h3>
         <br>
          <p>
             <div class="wrapper">
@@ -105,8 +213,9 @@
 
                     </script>
         </p>
-         <hr>
-        <h3>Stop Motion</h3>
+        <br>
+        <br>
+        <h3>Stop Motion:</h3>
 
         <br>
         <p>
@@ -120,10 +229,9 @@
 
                     </script>
         </p>
+<hr>
         <hr>
-        <img src="../imgs/SerraJofre.gif" alt="feina1">
-        <hr>
-        <h3>Animacio 3D i il·luminació</h3>
+        <h3>Animacio 3D i il·luminació:</h3>
 
         <br>
         <p>
@@ -142,7 +250,31 @@
         <hr>
         
         
-        <p>Gràcies per la vostre visita</p>
+        <p>Gràcies per la vostre visita.</p>
+         <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+
+    </script>
     </div>
 </body>
 
