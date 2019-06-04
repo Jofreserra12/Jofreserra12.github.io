@@ -14,7 +14,6 @@ body {
 
 .box-flex {
     display: flex;
-    border: 2px solid red;
     flex-wrap: wrap;
     padding: 2px;
 
@@ -75,6 +74,7 @@ ul {
     margin: 4px;
     padding: 12px;
     text-align: center;
+    border: 1px solid grey;
 }
 
 .color1:hover {
@@ -84,6 +84,7 @@ ul {
     margin: 4px;
     padding: 12px;
     text-align: center;
+     border: 3px solid grey;
 }
 
 .color2 {
@@ -93,6 +94,7 @@ ul {
     margin: 4px;
     padding: 12px;
     text-align: center;
+    border: 1px solid grey;
 }
 
 .color2:hover {
@@ -102,6 +104,7 @@ ul {
     margin: 4px;
     padding: 12px;
     text-align: center;
+    border: 3px solid grey;
 }
 
 .color3 {
@@ -111,6 +114,7 @@ ul {
     margin: 4px;
     padding: 12px;
     text-align: center;
+    border: 1px solid grey;
 
 }
 
@@ -121,14 +125,29 @@ ul {
     margin: 4px;
     padding: 12px;
     text-align: center;
+    border: 3px solid grey;
 
 }
 
 .color4 {
-    background-color: whitesmoke;
+    
     height: 40px;
     width: 200px;
     text-align: center;
     border-radius: 20px;
     margin: auto;
 }
+
+.footer{
+    display:flex;
+    position: fixed;
+    bottom: 0%;
+    left:0%;  
+    padding: 12px;
+    justify-content: center; 
+    width:100%;
+    background-color: black;
+    
+}
+
+
